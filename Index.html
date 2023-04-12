@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Página_inicial.css">
+    <title>Silverpox Pisos</title>
+
+</head>
+
+<body>
+    <section class="showcase">
+        <header>
+            <h2 class="logo"> Silverpox</h2>
+            <div class="toggle"></div>
+        </header>
+
+        <video src="pexels-mart-production-7565462.mp4" muted loop autoplay></video>
+
+        <div class="overlay"></div>
+
+
+
+        <div class="text">
+            <h2>Solucão</h2>
+            <h3> em produtos e serviços</h3>
+            <p> Conte com a maior e mais completa</p>
+            <a href="#">saiba mais</a>
+        </div>
+
+        <ul class="social">
+            <li><a href="#"><img src="whatsapp.png" height="50px" /></a></li>
+            <li><a href="#"><img src="instagram.png" height="50px" /></a></li>
+            <li><a href="#"><img src="facebook.png" height="50px" /></a></li>
+
+
+        </ul>
+
+    </section>
+
+    <div class="menu">
+        <ul>
+            <li><a href="#">Quem Somos</a></li>
+            <li><a href="#">Notícias</a></li>
+            <li><a href="#">Obras</a></li>
+            <li><a href="#">Parcerias</a></li>
+            <li><a href="#">Fale Conosco</a></li>
+        </ul>
+    </div>
+
+    
+    <section>
+        <script>
+            var menuToggle = document.querySelector('.toggle')
+            var showcase = document.querySelector('.showcase')
+
+            menuToggle.addEventListener('click', () => {
+                menuToggle.classList.toggle('active')
+                showcase.classList.toggle('active')
+            })
+        </script>
+
+</body>
+
+</html>
